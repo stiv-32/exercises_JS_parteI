@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: rgb(135, 194, 239);
+    
+}
+body{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;  
+    padding: 2rem; 
+}
+
+#number1  {
+    padding: .5rem;
+    border-radius: .3em;
+}
+#number2  {
+    padding: .5rem;
+    border-radius: .3em;
+}
+
+button {
+    width: 20rem;
+    height: 3em;
+    margin: 1em;
+    border-radius: .3em;
+    background-color: rgb(93, 112, 239);
+    color: rgb(252, 249, 249);
+} 

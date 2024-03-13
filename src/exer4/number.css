@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(98, 170, 107);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+h2 {
+    color: white;
+}
+
+#num1,
+#num2 {
+    border: 2px solid yellow;
+    padding: .7em;
+}
+
+#btn {
+    width: 5em;
+    color: white;
+    border-radius: 2em;
+}

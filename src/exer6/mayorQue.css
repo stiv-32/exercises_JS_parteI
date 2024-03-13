@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./img/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.col {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.form-label {
+    display: flex;
+    line-height: 35px;
+}
+
+.form-control {
+    width: 25rem;
+    height: 2.5rem;
+    border: 1.5px solid rgb(60, 132, 54);
+    border-radius: .2rem;
+}
+
+.btn {
+    width: 6rem;
+    padding: .5rem;
+    border-radius: .6rem;
+}
+

@@ -1,0 +1,11 @@
+.count_letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+#letter1{
+    height: 2rem;
+}
